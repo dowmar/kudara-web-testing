@@ -4,14 +4,14 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import { auth, logout } from "../../firebase";
 import { toast } from 'react-hot-toast';
-import { animateScroll as scroll } from 'react-scroll';
 
 const Menu = () => (
 
   <>
-    <Link to="" onClick={scrollToData}><p>Data list</p></Link>
-    <Link to="" onClick={scrollToPoss}><p>Possibility</p></Link>
-    <Link to="" onClick={scrollToFuture}><p>Future Improvements</p></Link>
+    <p><Link to="" onClick={scrollToData}><p>Data list</p></Link></p>
+    <p><Link to="" onClick={scrollToPoss}><p>Possibility</p></Link></p>
+    <p><Link to="" onClick={scrollToFuture}><p>Future Improvements</p></Link></p>
+
   </>
 )
 
