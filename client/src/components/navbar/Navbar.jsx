@@ -9,9 +9,7 @@ import { animateScroll as scroll } from 'react-scroll';
 const Menu = () => (
 
   <>
-    <p><Link to="#wkudara"></Link>What is Kudara</p>
     <Link to="" onClick={scrollToData}><p>Data list</p></Link>
-
     <Link to="" onClick={scrollToPoss}><p>Possibility</p></Link>
     <Link to="" onClick={scrollToFuture}><p>Future Improvements</p></Link>
   </>
